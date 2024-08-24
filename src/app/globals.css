@@ -19,7 +19,7 @@ html {
 /* Add this to your main CSS file or inside a <style> tag */
 .text-gradient {
   background: linear-gradient(to right, #13b0f5 3%, #e70faa 100%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
