@@ -1,6 +1,6 @@
 // import { useRef, useEffect } from "react";
 // import gsap from "gsap";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Hero = () => {
   // const h11 = useRef();
@@ -63,7 +63,7 @@ const Hero = () => {
           <div className="inner-hero text">A Full Stack Developer</div>
         </div>
 
-        <div className="cont-image w-[35%]  laptop:w-[56%]">
+        <div className="cont-image w-[35%]  laptop:w-[60%]">
           {/* <Image src="/myimg.png" width={179} height={215} alt="image"/> */}
 
           <img src="/myimg.png" className="my-img" alt="" />

@@ -9,12 +9,12 @@ const navlinks = [
     title: "Teach Stack",
   },
   {
-    id: "about",
-    title: "About",
-  },
-  {
     id: "project",
     title: "Projects",
+  },
+  {
+    id: "about",
+    title: "About",
   },
   {
     id: "contact",
