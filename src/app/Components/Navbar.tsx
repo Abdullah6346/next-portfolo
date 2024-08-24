@@ -92,9 +92,9 @@ const Navbar = () => {
             >
               <button onClick={toogleMenu}>
                 <Image
-                  src="/icons/burger-menu.png"
-                  width={30}
-                  height={30}
+                  src="/icons/menu.svg"
+                  width={53}
+                  height={50}
                   alt="Menu"
                 />
               </button>
