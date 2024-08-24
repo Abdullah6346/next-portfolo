@@ -56,3 +56,12 @@ html {
 .inner-hero {
   transform: none !important; /* Override any unwanted transforms */
 }
+.cont-image {
+  background-image: url(/public/myimg.png);
+}
+.my-img {
+  display: inline-block;
+
+  background-size: cover;
+  border-radius: 50%;
+}
