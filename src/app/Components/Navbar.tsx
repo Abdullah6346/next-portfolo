@@ -30,6 +30,7 @@ const Navbar = () => {
     <header>
       <nav>
         <div
+          id="home"
           className={`${
             isOpenMenu
               ? "flex items-baseline bg-[#2e2e2e]"
@@ -92,8 +93,8 @@ const Navbar = () => {
               <button onClick={toogleMenu}>
                 <Image
                   src="/icons/burger-menu.png"
-                  width={97}
-                  height={9}
+                  width={30}
+                  height={30}
                   alt="Menu"
                 />
               </button>
