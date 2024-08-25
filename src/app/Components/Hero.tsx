@@ -52,8 +52,8 @@ const Hero = () => {
   // }, []);
 
   return (
-    <section className="overflow-x-hidden">
-      <div className="cont-main-hero grid min-h-screen grid-cols-2 items-center justify-items-center laptop:min-h-96 laptop:grid-cols-1 laptop:gap-14 laptop:py-14">
+    <section className="overflow-x-hidden laptop:pb-10">
+      <div className="cont-main-hero grid min-h-screen grid-cols-2 items-center justify-items-center laptop:min-h-96 laptop:grid-cols-1  laptop:py-5">
         <div className="cont-heading gradient-text mdesktop:text-[2.5rem] smobile:text-[1.8rem] !text-left text-[3rem] text-white laptop:order-2 laptop:text-[30px]">
           Hi<span className="inner-hero-text !text-white">👋</span>,{" "}
           <div className="inner-hero-text">My Name is </div>
@@ -63,10 +63,10 @@ const Hero = () => {
           <div className="inner-hero text">A Full Stack Developer</div>
         </div>
 
-        <div className="cont-image w-[35%]  laptop:w-[60%]">
+        <div className="cont-image w-[100%]  laptop:w-[33rem]">
           {/* <Image src="/myimg.png" width={179} height={215} alt="image"/> */}
 
-          <img src="/myimg.png" className="my-img" alt="" />
+          <img src="/hero images/myimg.png" className=" " alt="" />
         </div>
       </div>
     </section>

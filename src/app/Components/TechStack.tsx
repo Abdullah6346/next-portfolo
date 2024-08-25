@@ -3,7 +3,7 @@ import { technologies } from "../Constants";
 import { tools } from "../Constants";
 const TechStack = () => {
   return (
-    <section className="sect-techstack min-h-14 py-5">
+    <section className="sect-techstack min-h-14 py-5 ">
       <div className="">
         <div
           id="stack"
@@ -17,7 +17,13 @@ const TechStack = () => {
         <div className="cont-tech-icons smobile:p-10 flex flex-wrap items-center justify-center gap-x-24 gap-y-16 p-32">
           {technologies.map((item, i) => (
             <div key={i}>
-              <Image src={item.icon} width={80} height={80} className=" w-[80px]" alt="icon" />
+              <Image
+                src={item.icon}
+                width={80}
+                height={80}
+                className=" w-[80px]"
+                alt="icon"
+              />
 
               <p className="text-center text-white">{item.name}</p>
             </div>
@@ -30,7 +36,13 @@ const TechStack = () => {
         <div className="cont-tech-icons smobile:p-10 flex flex-wrap items-center justify-center gap-x-24 gap-y-16 p-32">
           {tools.map((item, i) => (
             <div key={i}>
-              <Image src={item.icon} width={80} height={80} className=" w-[83px]" alt="icon" />
+              <Image
+                src={item.icon}
+                width={80}
+                height={80}
+                className=" w-[83px]"
+                alt="icon"
+              />
 
               <p className="text-center text-white">{item.name}</p>
             </div>

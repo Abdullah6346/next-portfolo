@@ -74,7 +74,7 @@ const technologies = [
   },
 
   {
-    name: "Scss",
+    name: "Sass",
     icon: "/techicons/sass.png",
   },
   {
