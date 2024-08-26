@@ -132,5 +132,61 @@ const tools = [
     icon: "/techicons/ubuntu.png",
   },
 ];
+const projectDetails = [
+  {
+    title: "Project title",
+    image: "/projects_images/project1.png",
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "Project title 2",
+    image: "/projects_images/project2.png",
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "Project title 3",
+    image: "/projects_images/project3.png",
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "Project title 4",
+    image: "/projects_images/project4.png",
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "Project title 5",
+    image: "/projects_images/project5.png",
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "Project title 6",
+    image: "/projects_images/project6.png",
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+];
 
-export { navlinks, nav_icon, technologies, tools };
+export { navlinks, nav_icon, technologies, tools, projectDetails };

@@ -10,11 +10,13 @@ const config: Config = {
     screens: {
       laptop: { max: "768px" },
       slaptop: "768px",
+      llaptop: { max: "1024px" },
       desktop: "1042px",
       mdesktop: { max: "1042px" },
       ldesktop: "1520px",
       xldesktop: "1820px",
       smobile: { max: "400px" },
+      lmobile: { max: "500px" },
     },
     extend: {
       backgroundImage: {
