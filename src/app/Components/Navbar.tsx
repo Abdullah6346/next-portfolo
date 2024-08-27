@@ -22,9 +22,7 @@ const Navbar = () => {
 
     mediaQuery.addEventListener("change", handleResize);
 
-    return () => {
-      mediaQuery.removeEventListener("change", handleResize);
-    };
+   
   }, []);
   return (
     <header>
@@ -39,10 +37,10 @@ const Navbar = () => {
         >
           <ul
             className={
-              isOpenMenu ? "flex items-baseline" : "flex items-center space-x-4"
+              isOpenMenu ? "flex items-baseline" : "flex items-center  space-x-4"
             }
           >
-            <div className="cont-open-menu flex justify-center text-left text-[15px]">
+            <div className={isOpenMenu?"cont-open-menu flex justify-center text-left text-[15px]":"hidden"}>
               <ul
                 className={
                   isOpenMenu
