@@ -194,25 +194,25 @@ const workDetails = [
     Position: "Full Stack Developer ",
     Company: " Sapphire Solutions",
     Location: "Punjab , Faisalabad",
-    Type: "Full Time",
+    Type: "Internship",
     Duration: "June 2024 - Present",
   },
 ];
 
 const eduDetails = [
   {
-    Position: "Full Stack Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "MERN Stack Development",
+    Company: "Udemy, YouTube  ",
+    Location: "Online Courses",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Jan 2023 - June 2024",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Bachelor in Computer Sciences",
+    Company: `Punjab College Pvt LTD`,
+    Location: "Punjab , Faisalabad",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Jan 2023 - Present",
   },
 ];
 
