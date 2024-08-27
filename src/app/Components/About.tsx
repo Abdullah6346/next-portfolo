@@ -10,7 +10,7 @@ const About = () => {
         <h1 className="text-5xl font-bold leading-4 text-white laptop:text-3xl">
           About Me
         </h1>
-        <p className="py-14 text-[16px] capitalize text-[#a7a7a7]">
+        <p className="py-14 text-[16px] capitalize leading-6 text-[#a7a7a7] lmobile:text-[18px]">
           Hi There! I am a Full Stack Developer with over 2 years of experience
           specializing in thes <span className="font-bold">MERN stack</span> . I
           have a strong foundation in designing and implementing highly
@@ -40,7 +40,7 @@ const About = () => {
               </div>
             </div>
             <div className="cont-company flex items-center justify-between gap-3 pt-3 text-[14px] lmobile:flex-col-reverse lmobile:items-start lmobile:pt-5">
-              <div className="comp-loc flex items-center laptop:flex-col">
+              <div className="comp-loc flex items-center laptop:flex-col lmobile:items-stretch">
                 <div className="comp flex items-center gap-1">
                   <Image
                     alt="icon"
@@ -86,7 +86,7 @@ const About = () => {
               </div>
             </div>
             <div className="cont-eduction flex items-center justify-between gap-3 pt-3 text-[14px] lmobile:flex-col-reverse lmobile:items-start lmobile:pt-5">
-              <div className="comp-loc flex items-center laptop:flex-col">
+              <div className="comp-loc flex items-center laptop:flex-col lmobile:items-baseline">
                 <div className="comp flex items-center gap-1">
                   <Image
                     alt="icon"

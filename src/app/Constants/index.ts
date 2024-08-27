@@ -203,14 +203,14 @@ const eduDetails = [
   {
     Position: "MERN Stack Development",
     Company: "Udemy, YouTube  ",
-    Location: "Online Courses",
+    Location: "Online Courses Learning",
     Type: "Full Time",
     Duration: "Jan 2023 - June 2024",
   },
   {
     Position: "Bachelor in Computer Sciences",
     Company: `Punjab College Pvt LTD`,
-    Location: "Punjab , Faisalabad",
+    Location: " Punjab , Faisalabad",
     Type: "Full Time",
     Duration: "Jan 2023 - Present",
   },
