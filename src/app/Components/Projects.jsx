@@ -1,4 +1,5 @@
 import { projectDetails } from "../Constants";
+import Image from "next/image";
 import Link from "next/link";
 const Projects = () => {
   return (
@@ -12,16 +13,23 @@ const Projects = () => {
       <div className="project-inner-heade gap-4r items-cen-gap-2r text-center text-[17px] text-white smobile:text-[13px]">
         Things I’ve built so far{" "}
       </div>
-      <div className="cont-project-details lmobile:px-[8%] lmobile:grid-cols-1 llaptop:gap-10 llaptop:px-[3%] grid grid-cols-3 gap-12 px-[15%] py-20 text-white laptop:grid-cols-2">
+      <div className="cont-project-details grid grid-cols-3 gap-12 px-[15%] py-20 text-white laptop:grid-cols-2 llaptop:gap-10 llaptop:px-[3%] lmobile:grid-cols-1 lmobile:px-[8%]">
         {projectDetails.map((detail, i) => (
           <article
             key={i}
-            className="rounded-xl bg-[#363636] shadow-xl shadow-slate-300 dark:shadow-slate-900"
+            className="rounded-lg bg-[#363636] shadow-xl shadow-slate-300 dark:shadow-slate-900"
           >
-            <img src={detail.image} alt="" />
+            {/* <Image
+              className=" rounded-lg"
+              width={3}
+              height={300}
+              alt="project-image"
+              src={detail.image}
+            /> */}
+            <img className="w-[100%] rounded-lg" src={detail.image} alt="" />
             <div className="cont-article p-4 py-5">
               <h1 className="title text-[28px]">{detail.title}</h1>
-              <p className="desc pt-5 font-light text-[#CCCCCC]">
+              <p className="desc pt-5 font-light capitalize text-[#CCCCCC]">
                 {" "}
                 {detail.description}
               </p>
@@ -53,7 +61,11 @@ const Projects = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                  <Link className="underline" href={detail.githubLink}>
+                  <Link
+                    target="_blank"
+                    className="underline"
+                    href={detail.githubLink}
+                  >
                     View Code
                   </Link>
                 </div>
@@ -81,7 +93,11 @@ const Projects = () => {
                       strokeLinejoin="round"
                     />
                   </svg>
-                  <Link className="underline" href={detail.previewLink}>
+                  <Link
+                    target="_blank"
+                    className="underline"
+                    href={detail.previewLink}
+                  >
                     Live Preview
                   </Link>
                 </div>

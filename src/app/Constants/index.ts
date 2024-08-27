@@ -134,25 +134,25 @@ const tools = [
 ];
 const projectDetails = [
   {
-    title: "Project title",
-    image: "/projects_images/project1.png",
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    title: "Netflix Clone",
+    image: "/projects_images/project1.jpg",
+    description: `Netflix Clone
+ This is the Full Stack Netflix Clone with Proper Routing for Sign Up , Login and Logut Pages The best part of this Project is Streaming For different Internet Speeds
+`,
+    techstack: "React/Vite , Express , MongoDB",
+    previewLink: "https://netflix-clone-eta-flax.vercel.app/",
+    githubLink: "https://github.com/Abdullah6346/Netflix-Clone",
+  },
+  {
+    title: "Chat App",
+    image: "/projects_images/project2.jpg",
+    description: `This is a Chat App project with React, Redux, and Express.js.The Important Part of this project is That , Users can easily  text, make voice calls, and even engage in live talks with each other.`,
+    techstack: "React/Vite, Redux And Express",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 2",
-    image: "/projects_images/project2.png",
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 3",
+    title: "Project title ",
     image: "/projects_images/project3.png",
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
@@ -161,31 +161,31 @@ project lorem ipsum generator for dummy content`,
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 4",
+    title: "Todo App",
     image: "/projects_images/project4.png",
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `This is Project Of Todo App . The Goal is to make it with Redux Local Storage.
+    it means that data also persists ,   if user reload the application`,
+    techstack: "React/Vite , And Redux Persistance",
+    previewLink: "https://todo-app-seven-silk-50.vercel.app/",
+    githubLink: "https://github.com/Abdullah6346/Todo_App",
   },
   {
-    title: "Project title 5",
-    image: "/projects_images/project5.png",
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Drum Beater",
+    image: "/projects_images/project5.jpg",
+    description: `This is Drum Machine Project Created with React , Tailwind and  Redux Toolkit with key integration . This Project is a Part of FreeCodeCamp Certification`,
+    techstack: "React/Vite , TypeScript And Redux Toolkit",
+    previewLink: "https://drum-machine-gamma-murex.vercel.app/",
+    githubLink: "https://github.com/Abdullah6346/Drum-Machine",
   },
   {
-    title: "Project title 6",
-    image: "/projects_images/project6.png",
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Calculator",
+    image: "/projects_images/project6.jpg",
+    description: `
+This project is a basic calculator built using React and Tailwind CSS, with TypeScript for type safety. All calculations are handled by separate components. 
+     `,
+    techstack: "React/Vite ,And TypeScript",
+    previewLink: "https://calculator-one-vert.vercel.app/",
+    githubLink: "https://github.com/Abdullah6346/Calculator",
   },
 ];
 
