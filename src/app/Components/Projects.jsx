@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Projects = () => {
   return (
-    <section className="cont-section-project">
+    <section className="cont-section-project py-5">
       <div
         id="project"
         className="project-inner-heade gap-4r items-cen-gap-2r overflow-hidden pb-4 pt-3 text-center text-[26px] font-bold leading-4 text-white slaptop:text-[23px]"
@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="project-inner-heade gap-4r items-cen-gap-2r text-center text-[17px] text-white smobile:text-[13px]">
         Things I’ve built so far{" "}
       </div>
-      <div className="cont-project-details grid grid-cols-3 gap-12 px-[15%] py-20 text-white laptop:grid-cols-2 llaptop:gap-10 llaptop:px-[3%] lmobile:grid-cols-1 lmobile:px-[8%]">
+      <div className="cont-project-details grid grid-cols-3 gap-12 px-[15%] py-20 text-white laptop:grid-cols-2 llaptop:gap-10 llaptop:px-[3%] smobile:grid-cols-1 smobile:px-[8%]">
         {projectDetails.map((detail, i) => (
           <article
             key={i}

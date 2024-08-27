@@ -15,8 +15,9 @@ const config: Config = {
       mdesktop: { max: "1042px" },
       ldesktop: "1520px",
       xldesktop: "1820px",
-      smobile: { max: "400px" },
-      lmobile: { max: "500px" },
+      smobile: { max: "500px" },
+      lmobile: { max: "425px" },
+      ipad: { max: "1024px" },
     },
     extend: {
       backgroundImage: {

@@ -1,60 +1,9 @@
-// import { useRef, useEffect } from "react";
-// import gsap from "gsap";
-// import Image from "next/image";
-
+import Image from "next/image";
 const Hero = () => {
-  // const h11 = useRef();
-  // const h12 = useRef();
-  // const h13 = useRef();ss
-  // const myimageref = useRef();
-  // useEffect(() => {
-  //   const tl = gsap.timeline();
-  //   tl.from(h11.current, {
-  //     x: "-100%",
-  //     delay: 0.8,
-  //     opacity: 0,
-  //     duration: 2,
-  //     ease: "Power3.easeOut",
-  //   })
-  //     .from(
-  //       h12.current,
-  //       {
-  //         x: "-100%",
-  //         delay: 0.5,
-  //         opacity: 0,
-  //         duration: 2,
-  //         ease: "Power3.easeOut",
-  //       },
-  //       "<"
-  //     )
-  //     .from(
-  //       h13.current,
-  //       {
-  //         x: "-100%",
-  //         delay: 0.1,
-  //         opacity: 0,
-  //         duration: 2,
-  //         ease: "Power3.easeOut",
-  //       },
-  //       "<"
-  //     )
-  //     .from(
-  //       myimageref.current,
-  //       {
-  //         x: "200%",
-  //         delay: 0.5,
-  //         opacity: 0,
-  //         duration: 2,
-  //         ease: "Power3.easeOut",
-  //       },
-  //       "<"
-  //     );
-  // }, []);
-
   return (
     <section className="overflow-x-hidden laptop:pb-10">
-      <div className="cont-main-hero grid min-h-screen grid-cols-2 items-center justify-items-center laptop:min-h-96 laptop:grid-cols-1  laptop:py-5">
-        <div className="cont-heading gradient-text mdesktop:text-[2.5rem] smobile:text-[1.8rem] !text-left text-[3rem] text-white laptop:order-2 laptop:text-[30px]">
+      <div className="cont-main-hero ipad:min-h-[60vh]  grid min-h-screen grid-cols-2 items-center justify-items-center laptop:min-h-96 laptop:grid-cols-1 laptop:py-5">
+        <div className="cont-heading gradient-text !text-left text-[3rem] text-white laptop:order-2 laptop:text-[30px] mdesktop:text-[2rem] smobile:text-[1.8rem]">
           Hi<span className="inner-hero-text !text-white">👋</span>,{" "}
           <div className="inner-hero-text">My Name is </div>
           <div className="inner-name-cont !gradient-text text-gradient !text-left">
@@ -63,8 +12,13 @@ const Hero = () => {
           <div className="inner-hero text">A Full Stack Developer</div>
         </div>
 
-        <div className="cont-image w-[100%]  laptop:w-[33rem]">
-          {/* <Image src="/myimg.png" width={179} height={215} alt="image"/> */}
+        <div className="cont-image w-[100%] laptop:w-[33rem]">
+          {/* <Image
+            src="/hero images/myimg.png"
+            width={192}
+            height={256}
+            alt="image"
+          /> */}
 
           <img src="/hero images/myimg.png" className=" " alt="" />
         </div>

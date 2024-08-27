@@ -189,4 +189,39 @@ This project is a basic calculator built using React and Tailwind CSS, with Type
   },
 ];
 
-export { navlinks, nav_icon, technologies, tools, projectDetails };
+const workDetails = [
+  {
+    Position: "Full Stack Developer ",
+    Company: " Sapphire Solutions",
+    Location: "Punjab , Faisalabad",
+    Type: "Full Time",
+    Duration: "June 2024 - Present",
+  },
+];
+
+const eduDetails = [
+  {
+    Position: "Full Stack Development",
+    Company: "Udemy, YouTube, Google, Medium",
+    Location: "Online",
+    Type: "Full Time",
+    Duration: "Jan 2022 - Present",
+  },
+  {
+    Position: "Bachelor in Electronics & Communication",
+    Company: `Your College Name here`,
+    Location: "Bengaluru",
+    Type: "Full Time",
+    Duration: "Aug 2020 - Present",
+  },
+];
+
+export {
+  navlinks,
+  nav_icon,
+  technologies,
+  tools,
+  projectDetails,
+  eduDetails,
+  workDetails,
+};
