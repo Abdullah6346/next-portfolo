@@ -2,7 +2,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="overflow-x-hidden laptop:pb-10">
-      <div className="cont-main-hero ipad:min-h-[60vh]  grid min-h-screen grid-cols-2 items-center justify-items-center laptop:min-h-96 laptop:grid-cols-1 laptop:py-5">
+      <div className="cont-main-hero grid min-h-screen grid-cols-2 items-center justify-items-center laptop:min-h-96 laptop:grid-cols-1 laptop:py-5 llaptop:min-h-[60vh]">
         <div className="cont-heading gradient-text !text-left text-[3rem] text-white laptop:order-2 laptop:text-[30px] mdesktop:text-[2rem] smobile:text-[1.8rem]">
           Hi<span className="inner-hero-text !text-white">👋</span>,{" "}
           <div className="inner-hero-text">My Name is </div>

@@ -4,26 +4,34 @@ import Image from "next/image";
 import { navlinks } from "../Constants";
 import { nav_icon } from "../Constants";
 import { useState, useEffect } from "react";
+
 const Navbar = () => {
   const [isOpenMenu, setisOpenMenu] = useState(false);
+  const [isActive, setisActive] = useState(false);
+
   const toogleMenu = () => {
     setisOpenMenu(!isOpenMenu);
   };
 
-  const [isActive, setisActive] = useState(false);
-
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 600px)");
+
     setisActive(mediaQuery.matches);
 
     const handleResize = (event: MediaQueryListEvent) => {
       setisActive(event.matches);
+      if (!event.matches) {
+        setisOpenMenu(false);
+      }
     };
 
     mediaQuery.addEventListener("change", handleResize);
 
-   
+    return () => {
+      mediaQuery.removeEventListener("change", handleResize);
+    };
   }, []);
+
   return (
     <header>
       <nav>
@@ -37,10 +45,16 @@ const Navbar = () => {
         >
           <ul
             className={
-              isOpenMenu ? "flex items-baseline" : "flex items-center  space-x-4"
+              isOpenMenu ? "flex items-baseline" : "flex items-center space-x-4"
             }
           >
-            <div className={isOpenMenu?"cont-open-menu flex justify-center text-left text-[15px]":"hidden"}>
+            <div
+              className={
+                isOpenMenu
+                  ? "cont-open-menu flex justify-center text-left text-[15px]"
+                  : "hidden"
+              }
+            >
               <ul
                 className={
                   isOpenMenu
