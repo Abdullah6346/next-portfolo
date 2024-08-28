@@ -1,6 +1,17 @@
+"use client";
 import React from "react";
 
+import { useForm, ValidationError } from "@formspree/react";
+
 const Contact = () => {
+  const [state, handleSubmit] = useForm("movarlrg");
+  if (state.succeeded) {
+    return (
+      <p className="gradient-text text-gradient  tect-[24px] px-14 py-4">
+        Thanks For Your Message!
+      </p>
+    );
+  }
   return (
     <main id="contact">
       <section className="cont-contact px-[15%] py-12">
@@ -11,6 +22,7 @@ const Contact = () => {
           Any Question? Please Fill Out the form below
         </div>
         <form
+          onSubmit={handleSubmit}
           action="post"
           className="contact-form m-4 flex max-w-[60rem] flex-col items-center justify-center text-[#ccc]"
         >
@@ -29,13 +41,16 @@ const Contact = () => {
             className="contact-msg m-2 w-[90vw] max-w-[40rem] rounded-lg border-none bg-[#282828] px-4 py-2 font-medium sslaptop:px-8 sslaptop:py-4"
             rows={5}
             placeholder="Your Message"
-          ></textarea>
+          ></textarea>{" "}
           <button
             type="submit"
             value="send"
-            className="sub-btn bg-[#282828] m-8 rounded-full border-none px-14 py-4 text-transparent"
+            disabled={state.submitting}
+            className="sub-btn m-8 rounded-full border-none bg-[#282828] px-14 py-4 text-transparent"
           >
-            <span className="gradient-text text-gradient">Submit</span>
+            <span className="gradient-text text-gradient">
+              {state.submitting ? "Submitting..." : "Submit"}
+            </span>
           </button>
         </form>
       </section>
