@@ -33,9 +33,9 @@ const Contact = () => {
           <button
             type="submit"
             value="send"
-            className="sub-btn m-8 rounded-lg border-none bg-white px-14 py-4 text-black"
+            className="sub-btn bg-[#282828] m-8 rounded-full border-none px-14 py-4 text-transparent"
           >
-            Submit
+            <span className="gradient-text text-gradient">Submit</span>
           </button>
         </form>
       </section>
