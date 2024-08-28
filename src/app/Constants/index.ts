@@ -152,13 +152,15 @@ const projectDetails = [
     githubLink: "https://github.com",
   },
   {
-    title: "Project title ",
+    title: "Jason's Portfolio ",
     image: "/projects_images/project3.png",
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `I have builded this Portfolio for a Graphic Designer , Jason . The site is built using Next.js 14, styled with Sass and TailwindCSS . To bring my designs to life, I've integrated GSAP animations.
+
+`,
+    techstack: "Next/TailwindCSS, Sass , Gsap and Typescript",
+    previewLink:
+      "https://jasonportfolio-m97ed20fv-abdullahs-projects-c296c1c3.vercel.app/",
+    githubLink: "https://github.com/Abdullah6346/jasonportfolio",
   },
   {
     title: "Todo App",
