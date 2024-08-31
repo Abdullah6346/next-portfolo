@@ -24,17 +24,17 @@ const navlinks = [
 const nav_icon = [
   {
     title: "Linkedin",
-    path: "/icons/linkedin.png",
+    path: "/icons/linkedin.svg",
     url: "https://www.linkedin.com/in/muhammad-abdullah-31bb38286",
   },
   {
     title: "Twitter",
-    path: "/icons/twitter.png",
+    path: "/icons/twitter.svg",
     url: "https://www.twitter.com",
   },
   {
     title: "Github",
-    path: "/icons/github.png",
+    path: "/icons/github.svg",
     url: "https://github.com/Abdullah6346",
   },
 ];
