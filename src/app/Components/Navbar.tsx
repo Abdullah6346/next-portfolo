@@ -41,7 +41,7 @@ const Navbar = () => {
             isOpenMenu
               ? "flex items-baseline bg-[#2e2e2e]"
               : "map_cont flex items-center"
-          } justify-center px-4 py-6 text-[18px] leading-7`}
+          } justify-center px-4 py-2 text-[18px] leading-7`}
         >
           <ul
             className={
@@ -76,7 +76,12 @@ const Navbar = () => {
               </ul>
             </div>
             <div className={!isOpenMenu ? "cont-logp" : "hidden"}>
-              <Image src="/icons/logo.png" width={97} height={59} alt="logo" />
+              <Image
+                src="/icons/logo.svg"
+                width={128}
+                height={111}
+                alt="logo"
+              />
             </div>
             <div className="cont-nav-links flex items-center gap-10 laptop:text-[13px]">
               <div
