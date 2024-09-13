@@ -147,9 +147,9 @@ const projectDetails = [
     title: "Chat App",
     image: "/projects_images/project2.jpg",
     description: `This is a Chat App project with React, Redux, and Express.js.The Important Part of this project is That , Users can easily  text, make voice calls, and even engage in live talks with each other.`,
-    techstack: "React/Vite, Redux And Express",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    techstack: "React/Vite, Redux , Express and Socket.io",
+    previewLink: "https://chat-app-with-pern-stack.vercel.app/",
+    githubLink: "https://github.com/Abdullah6346/Chat-App-With_Pern_Stack",
   },
   {
     title: "Jason's Portfolio ",
