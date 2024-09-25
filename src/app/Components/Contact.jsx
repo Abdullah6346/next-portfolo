@@ -44,54 +44,58 @@ const Contact = () => {
               </p>
             )
           : ""}
-        <form
-          onSubmit={handleSubmit(onSubmit)}
-          className="contact-form m-4 flex max-w-[60rem] flex-col items-center justify-center text-[#ccc]"
-        >
-          <input
-            type="text"
-            {...register("name", { required: "Name is required" })}
-            className={`contact-name m-2 w-[90vw] max-w-[40rem] rounded-lg border-none bg-[#282828] px-4 py-2 font-medium sslaptop:px-8 sslaptop:py-4 ${errors.name ? "border-red-500" : ""}`}
-            placeholder="Enter Your Name"
-          />
-          {errors.name && <p className="text-red-500">{errors.name.message}</p>}
-
-          <input
-            type="email"
-            {...register("email", {
-              required: "Email is required",
-              pattern: {
-                value: /\S+@\S+\.\S+/,
-                message: "A valid email is required",
-              },
-            })}
-            className={`contact-email m-2 w-[90vw] max-w-[40rem] rounded-lg border-none bg-[#282828] px-4 py-2 font-medium sslaptop:px-8 sslaptop:py-4 ${errors.email ? "border-red-500" : ""}`}
-            placeholder="Enter Your Email"
-          />
-          {errors.email && (
-            <p className="text-red-500">{errors.email.message}</p>
-          )}
-
-          <textarea
-            {...register("message", { required: "Message cannot be empty" })}
-            className={`contact-msg m-2 w-[90vw] max-w-[40rem] rounded-lg border-none bg-[#282828] px-4 py-2 font-medium sslaptop:px-8 sslaptop:py-4 ${errors.message ? "border-red-500" : ""}`}
-            rows={5}
-            placeholder="Your Message"
-          ></textarea>
-          {errors.message && (
-            <p className="text-red-500">{errors.message.message}</p>
-          )}
-
-          <button
-            type="submit"
-            disabled={isSubmitting}
-            className="sub-btn m-8 rounded-full border-none bg-[#282828] px-14 py-4 text-transparent"
+        <div className="flex justify-center">
+          <form
+            onSubmit={handleSubmit(onSubmit)}
+            className="contact-form m-4 flex max-w-[60rem] flex-col items-center justify-center text-[#ccc]"
           >
-            <span className="gradient-text text-gradient">
-              {isSubmitting ? "Submitting..." : "Submit"}
-            </span>
-          </button>
-        </form>
+            <input
+              type="text"
+              {...register("name", { required: "Name is required" })}
+              className={`contact-name m-2 w-[90vw] max-w-[40rem] rounded-lg border-none bg-[#282828] px-4 py-2 font-medium sslaptop:px-8 sslaptop:py-4 ${errors.name ? "border-red-500" : ""}`}
+              placeholder="Enter Your Name"
+            />
+            {errors.name && (
+              <p className="text-red-500">{errors.name.message}</p>
+            )}
+
+            <input
+              type="email"
+              {...register("email", {
+                required: "Email is required",
+                pattern: {
+                  value: /\S+@\S+\.\S+/,
+                  message: "A valid email is required",
+                },
+              })}
+              className={`contact-email m-2 w-[90vw] max-w-[40rem] rounded-lg border-none bg-[#282828] px-4 py-2 font-medium sslaptop:px-8 sslaptop:py-4 ${errors.email ? "border-red-500" : ""}`}
+              placeholder="Enter Your Email"
+            />
+            {errors.email && (
+              <p className="text-red-500">{errors.email.message}</p>
+            )}
+
+            <textarea
+              {...register("message", { required: "Message cannot be empty" })}
+              className={`contact-msg m-2 w-[90vw] max-w-[40rem] rounded-lg border-none bg-[#282828] px-4 py-2 font-medium sslaptop:px-8 sslaptop:py-4 ${errors.message ? "border-red-500" : ""}`}
+              rows={5}
+              placeholder="Your Message"
+            ></textarea>
+            {errors.message && (
+              <p className="text-red-500">{errors.message.message}</p>
+            )}
+
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="sub-btn m-8 rounded-full border-none bg-[#282828] px-14 py-4 text-transparent"
+            >
+              <span className="gradient-text text-gradient">
+                {isSubmitting ? "Submitting..." : "Submit"}
+              </span>
+            </button>
+          </form>
+        </div>
       </section>
     </main>
   );

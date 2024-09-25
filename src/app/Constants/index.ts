@@ -140,14 +140,14 @@ const projectDetails = [
  This is the Full Stack Netflix Clone with Proper Routing for Sign Up , Login and Logut Pages The best part of this Project is Streaming For different Internet Speeds
 `,
     techstack: "React/Vite , Express , MongoDB",
-    previewLink: "https://netflix-clone-eta-flax.vercel.app/",
-    githubLink: "https://github.com/Abdullah6346/Netflix-Clone",
+    previewLink: "https://fortunate-creativity-production.up.railway.app/",
+    githubLink: "https://github.com/Abdullah6346/netflix-clone-gladdy",
   },
   {
     title: "Chat App",
     image: "/projects_images/project2.jpg",
-    description: `This is a Chat App project with React, Redux, and Express.js.The Important Part of this project is That , Users can easily  text, make voice calls, and even engage in live talks with each other.`,
-    techstack: "React/Vite, Redux , Express and Socket.io",
+    description: `This is a Chat App project with React, Prisma, and Express.js.The Important Part of this project is That , Users can easily  text, make voice calls, and even engage in live talks with each other.`,
+    techstack: "React, Prisma ORM , Express , Postgres and Socket.io",
     previewLink: "https://chat-app-with-pern-stack.vercel.app/",
     githubLink: "https://github.com/Abdullah6346/Chat-App-With_Pern_Stack",
   },

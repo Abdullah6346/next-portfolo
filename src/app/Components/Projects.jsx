@@ -17,7 +17,7 @@ const Projects = () => {
         {projectDetails.map((detail, i) => (
           <article
             key={i}
-            className="rounded-lg bg-[#363636] shadow-xl shadow-slate-300 dark:shadow-slate-900"
+            className="rounded-lg leading-6 bg-[#363636] shadow-xl shadow-slate-300 dark:shadow-slate-900"
           >
             {/* <Image
               className=" rounded-lg"
